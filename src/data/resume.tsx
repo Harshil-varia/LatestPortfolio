@@ -72,10 +72,21 @@ export const DATA = {
     }
   ],
   projects: [
+        {
+      title: "Document Intelligence Q&A System with Dockling",
+      href: "#",
+      dates: "April 2025 - Present",
+      active: true,
+      description: "Developed a RAG-based document Q&A system achieving 90%+ accuracy in answer quality/relevance using IBM's open-source Dockling library",
+      technologies: ["Dockling", "Python", "LanceDB", "Streamlit", "HuggingFace", "RT-DETR", "TableFormer", "EasyOCR", "Sentence Transformers"],
+      links: [
+        { type: "GitHub", href: "https://github.com/Harshil-varia/Pdf_Chatbox", icon: <Icons.github className="size-3" /> }
+      ]
+    },
     {
       title: "AI-Powered Website Builder",
       href: "#",
-      dates: "Feb 2024 - Present",
+      dates: "Feb 2025 - Present",
       active: true,
       description: "A website platform generating React/Express code via natural language prompts using Anthropic API.",
       technologies: ["React", "Express", "JavaScript", "Anthropic API"],
@@ -86,7 +97,7 @@ export const DATA = {
     {
       title: "Fitness Activity Recognition System",
       href: "#",
-      dates: "Jan 2024 - Present",
+      dates: "Jan 2025 - Present",
       active: true,
       description: "CNN model achieving 95% exercise classification accuracy with TensorFlow.",
       technologies: ["Python", "TensorFlow", "SQL"],
