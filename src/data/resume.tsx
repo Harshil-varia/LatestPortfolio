@@ -53,7 +53,7 @@ export const DATA = {
       badges: [],
       location: "Halifax, NS",
       title: "Data Scientist Co-op",
-      logoUrl: "AEC.jpeg", 
+      logoUrl: "AEC.png", 
       start: "May 2025",
       end: "Aug 2025",
       description:
