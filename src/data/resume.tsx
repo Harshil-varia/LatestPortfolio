@@ -48,13 +48,24 @@ export const DATA = {
 
   },
   work: [
+    { company: "Atlantic Economic Council",
+      href: "#",
+      badges: [],
+      location: "Halifax, NS",
+      title: "Data Scientist Co-op",
+      logoUrl: "AEC.jpeg", 
+      start: "May 2025",
+      end: "Aug 2025",
+      description:
+      "Engineered an automated ETL pipeline using Python (Pandas, PyPDF2) to extract and clean 50+ complex tables from unstructured PDFs. Developed an interactive Power BI dashboard and deployed a production-ready web application on Vercel to visualize key economic data and geospatially map regional investments."
+      },
     {
       company: "LED Roadway Lighting Ltd.",
       href: "#",
       badges: [],
       location: "Halifax, NS",
       title: "AI Computer Vision Analytics Researcher & Developer (Co-Op)",
-      logoUrl: "Liveablecities.png", // Add logo
+      logoUrl: "Liveablecities.png", 
       start: "Aug 2024",
       end: "Dec 2024",
       description:
@@ -72,21 +83,25 @@ export const DATA = {
     }
   ],
   projects: [
-        {
-      title: "Document Intelligence Q&A System with Dockling",
+    {
+      title: "Project Management & Timesheet System",
       href: "#",
-      dates: "April 2025 - Present",
-      active: true,
-      description: "Developed a RAG-based document Q&A system achieving 90%+ accuracy in answer quality/relevance using IBM's open-source Dockling library",
-      technologies: ["Dockling", "Python", "LanceDB", "Streamlit", "HuggingFace", "RT-DETR", "TableFormer", "EasyOCR", "Sentence Transformers"],
+      dates: "July 2025 - Aug 2025", 
+      active: true, 
+      description: "Transformed tightly-coupled Excel timesheet processes into a scalable web application with automated reporting, role-based access control, and comprehensive project budget tracking.",
+      technologies: ["Next.js", "Prisma ORM", "TypeScript", "PostgreSQL", "Vercel"],
       links: [
-        { type: "GitHub", href: "https://github.com/Harshil-varia/Pdf_Chatbox", icon: <Icons.github className="size-3" /> }
+        { 
+          type: "GitHub", 
+          href: "https://github.com/Harshil-varia/ProjectManagementSaas", 
+          icon: <Icons.github className="size-3" /> 
+        },
       ]
     },
     {
       title: "AI-Powered Website Builder",
       href: "#",
-      dates: "Feb 2025 - Present",
+      dates: "Feb 2024 - Present",
       active: true,
       description: "A website platform generating React/Express code via natural language prompts using Anthropic API.",
       technologies: ["React", "Express", "JavaScript", "Anthropic API"],
@@ -97,7 +112,7 @@ export const DATA = {
     {
       title: "Fitness Activity Recognition System",
       href: "#",
-      dates: "Jan 2025 - Present",
+      dates: "Jan 2024 - Present",
       active: true,
       description: "CNN model achieving 95% exercise classification accuracy with TensorFlow.",
       technologies: ["Python", "TensorFlow", "SQL"],
